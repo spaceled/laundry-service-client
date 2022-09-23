@@ -23,15 +23,12 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal text-white uppercase p-0">
-              {menuItems}
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal gap-x-4 text-white uppercase p-0">
+            {menuItems}
           </ul>
+        </div>
       </div>
-      {/* <div className="navbar-end">
-        <a className="btn">Get started</Link>
-      </div> */}
     </div>
   );
 };
