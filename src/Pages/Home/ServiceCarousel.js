@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCarousel = () => {
   return (
-    <div className="carousel carousel-center -mt-10">
+    <div className="carousel carousel-center grid -mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div className="carousel-item">
         <div className="card w-96 shadow-xl rounded-none mx-6 bg-info">
           <div className="card-body">
