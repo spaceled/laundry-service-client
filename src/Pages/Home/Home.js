@@ -6,8 +6,9 @@ import Passionate from './Passionate';
 import ServiceCarousel from './ServiceCarousel';
 import OurApproach from './OurApproach';
 import AppordablePrices from '../Shared/AppordablePrices';
-import ServiceQuality from './ServiceQuality';
+import ServiceQuality from '../Shared/ServiceQuality';
 import Footer from '../Shared/Footer';
+import CommercialService2 from '../Shared/CommercialService2';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Passionate></Passionate>
       <EasySteps></EasySteps>
       <CommercialService></CommercialService>
+      <CommercialService2></CommercialService2>
       <OurApproach></OurApproach>
       <AppordablePrices></AppordablePrices>
       <ServiceQuality></ServiceQuality>

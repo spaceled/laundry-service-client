@@ -10,6 +10,8 @@ import {
 import Navbar from './Pages/Shared/Navbar';
 import Heading from './Pages/Shared/Heading';
 import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import Services from './Pages/Services/Services';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/services" element={<Services/>}/>
       </Routes>
     </div>
   );
