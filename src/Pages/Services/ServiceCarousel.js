@@ -2,36 +2,38 @@ import React from 'react';
 
 const ServiceCarousel = () => {
   return (
-    <div>
-      <div className="carousel w-full">
+    <div className="px-5 mx-5">
+      <div className="carousel w-full px-5">
         <div id="item1" className="carousel-item relative w-full">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+          <div className="flex m-12 p-10">
+            <div className="card card-compact w-80 m-5 m-10 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
@@ -41,31 +43,35 @@ const ServiceCarousel = () => {
           </div>
         </div>
         <div id="item2" className="carousel-item relative w-full">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+        <div className="flex m-12 p-10">
+            <div className="card card-compact w-80 m-5 m-10 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div><div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div><div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
@@ -75,33 +81,35 @@ const ServiceCarousel = () => {
           </div>
         </div>
         <div id="item3" className="carousel-item relative w-full">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+        <div className="flex m-12 p-10">
+            <div className="card card-compact w-80 m-5 m-10 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
@@ -110,34 +118,36 @@ const ServiceCarousel = () => {
             <a href="#item4" className="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="#item4" className="carousel-item relative w-full">
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+        <div id="item4" className="carousel-item relative w-full">
+        <div className="flex m-12 p-10">
+            <div className="card card-compact w-80 m-5 m-10 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card card-compact w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+            <div className="card card-compact w-80 m-5 bg-base-100 shadow-xl">
+              <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">Buy Now</button>
+                </div>
               </div>
             </div>
           </div>
@@ -152,7 +162,6 @@ const ServiceCarousel = () => {
         <a href="#item2" className="btn btn-xs">2</a>
         <a href="#item3" className="btn btn-xs">3</a>
         <a href="#item4" className="btn btn-xs">4</a>
-        
       </div>
     </div>
   );
