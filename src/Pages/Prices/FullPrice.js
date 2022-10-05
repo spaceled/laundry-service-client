@@ -8,7 +8,7 @@ const FullPrice = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold text-center mt-10">FULL PRICE LIST</h1>
-      <div className="flex mt-10 p-10 justify-center">
+      <div className="flex mt-10 p-10 justify-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <img className="img-responsive mx-2" src={washingMachine} alt="" />
         <img className="img-responsive mx-2" src={iron} alt="" />
         <img className="img-responsive mx-2" src={dryWash} alt="" />

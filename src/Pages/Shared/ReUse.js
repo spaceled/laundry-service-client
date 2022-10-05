@@ -1,10 +1,11 @@
 import React from 'react';
 
-const ReUse = ({children}) => {
+const ReUse = (props) => {
   return (
     <div>
-      <h1>{children}</h1>
-      <p>{children.pragraph}</p>
+      <h1>{props.title}</h1>
+      <p>{props.paragraph}</p>
+      <h2>{props.heading}</h2>
     </div>
   );
 };

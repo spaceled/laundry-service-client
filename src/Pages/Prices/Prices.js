@@ -3,6 +3,7 @@ import shirt from '../../../src/assets/icons/shirt.png';
 import shoppingBag from '../../../src/assets/icons/shoppingBag.png';
 import hanger from '../../../src/assets/icons/hanger.png';
 import FullPrice from './FullPrice';
+import Footer from '../Shared/Footer';
 
 const Prices = () => {
   return (
@@ -53,6 +54,7 @@ const Prices = () => {
         </div>
       </div>
       <FullPrice></FullPrice>
+      <Footer></Footer>
     </div>
   );
 };
