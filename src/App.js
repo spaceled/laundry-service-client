@@ -15,6 +15,7 @@ import Services from './Pages/Services/Services';
 import Prices from './Pages/Prices/Prices';
 import Blog from './Pages/Blog/Blog';
 import OrderOnline from './Pages/OrderOnline/OrderOnline';
+import Contacts from './Pages/Contacts/Contacts';
 
 function App() {
   return (
@@ -23,11 +24,12 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/prices" element={<Prices/>}/>
-        <Route path="/blog" element={<Blog/>}/>
-        <Route path="/order-online" element={<OrderOnline/>}/>
+        <Route path="about" element={<About/>}/>
+        <Route path="services" element={<Services/>}/>
+        <Route path="prices" element={<Prices/>}/>
+        <Route path="blog" element={<Blog/>}/>
+        <Route element={<OrderOnline/>}/>
+        <Route path="contacts" element={<Contacts/>}/>
       </Routes>
     </div>
   );

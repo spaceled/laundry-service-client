@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import OrderOnline from '../OrderOnline/OrderOnline';
 
 const Navbar = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   const menuItems = <>
     <li><Link to="/">Home</Link></li>
     <li><Link to="/about">About</Link></li>
@@ -9,8 +12,10 @@ const Navbar = () => {
     <li><Link to="/prices">Prices</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/faq">Faq</Link></li>
-    <li><Link to="/order-online">Order Online</Link></li>
-    <li><Link to="/contacts">Contact us</Link></li>
+    <li>
+      <label onClick={() => setOpenModal(true)} htmlFor="order-modal">Order Online</label>
+    </li>
+    <li><Link to="/contacts">contacts</Link></li>
   </>
   return (
     <div className="navbar bg-green-400 sticky top-0 z-50">
@@ -29,6 +34,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      {
+        openModal && <OrderOnline></OrderOnline>
+      }
     </div>
   );
 };
