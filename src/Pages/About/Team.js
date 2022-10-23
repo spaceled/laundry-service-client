@@ -1,9 +1,11 @@
 import React from 'react';
+import H1 from '../Shared/H1';
 
 const Team = () => {
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center my-10">OUR TEAM</h1>
+      {/* <h1 className="text-5xl font-bold text-center my-10">OUR TEAM</h1> */}
+      <H1>Our Team</H1>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div className="card w-96">
           <figure className="px-10 pt-10">

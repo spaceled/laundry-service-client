@@ -5,7 +5,7 @@ const EasySteps = () => {
     <div className="bg-slate-100">
       <h1 className="text-3xl text-center p-10">HOW IT WORKS: IN 4 EASY STEPS</h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <div className="card w-96 rounded-none">
+        <div className="card w-96 rounded-nonez">
           <figure className="px-10 pt-10">
             <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
           </figure>

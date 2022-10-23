@@ -16,6 +16,8 @@ import Prices from './Pages/Prices/Prices';
 import Blog from './Pages/Blog/Blog';
 import OrderOnline from './Pages/OrderOnline/OrderOnline';
 import Contacts from './Pages/Contacts/Contacts';
+import Form from './Pages/Shared/ReactHookForm';
+import ReactHookForm from './Pages/Shared/ReactHookForm';
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
         <Route path="blog" element={<Blog/>}/>
         <Route element={<OrderOnline/>}/>
         <Route path="contacts" element={<Contacts/>}/>
+        <Route path="form" element={<ReactHookForm/>}/>
       </Routes>
     </div>
   );

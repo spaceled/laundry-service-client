@@ -1,11 +1,13 @@
 import React from 'react';
 import Footer from '../Shared/Footer';
+import H1 from '../Shared/H1';
 import PrimaryButton from '../Shared/PrimaryButton';
 
 const Contacts = () => {
   return (
     <>
-      <h1 className="text-5xl font-bold text-center my-10 uppercase">Contact us</h1>
+      {/* <h1 className="text-5xl font-bold text-center my-10 uppercase">Contact us</h1> */}
+      <H1>contact us</H1>
       <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-12">
         <div class="py-12 m-10">
           <div class="mt-8 max-w-md">
@@ -21,7 +23,7 @@ const Contacts = () => {
                   <p>+1-800-123-45-67</p>
                 </div>
                 <div className="mt-5">
-                  <h3 className="font-bold">Have any questions?</h3>
+                  <h3 className="font-bold divide-y divide-dashed">Have any questions?</h3>
                   <p>noreply@laundry.com</p>
                   <p>www.laundry.com</p>
                 </div>
@@ -52,15 +54,15 @@ const Contacts = () => {
             <div class="grid grid-cols-1 gap-6">
               <label class="block">
                 <span class="text-gray-700">Full name</span>
-                <input type="text" className=" mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 " placeholder="" />
+                <input type="text" className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 " placeholder="Your Name" />
               </label>
               <label class="block">
                 <span class="text-gray-700">Email address</span>
-                <input type="email" class=" mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 " placeholder="john@example.com" />
+                <input type="email" class="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="john@example.com" />
               </label>
               <label class="block">
                 <span class="text-gray-700">Additional details</span>
-                <textarea class=" mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 " rows="5">
+                <textarea class="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 " rows="5" placeholder="Write your info..." >
                 </textarea>
               </label>
               <div class="block">

@@ -30,7 +30,7 @@ const ServiceQuality = () => {
           </div>
         </div>
         <div className="card w-96">
-          <div className="card-body items-center">
+          <div className="card-body">
             <h2 className="card-title">Persionalized Experience</h2>
             <p>We take utmost care of your clothes, segregating based on the cloth type and giving you instant clothes to make a statement.</p>
           </div>

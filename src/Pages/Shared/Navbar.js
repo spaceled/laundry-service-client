@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import OrderOnline from '../OrderOnline/OrderOnline';
+import ReactHookForm from './ReactHookForm';
 
 const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -16,9 +17,12 @@ const Navbar = () => {
       <label onClick={() => setOpenModal(true)} htmlFor="order-modal">Order Online</label>
     </li>
     <li><Link to="/contacts">contacts</Link></li>
+    <li>
+      <label onClick={() => setOpenModal(true)} htmlFor="my-modal-5">React-Hook-Form</label>
+    </li>
   </>
   return (
-    <div className="navbar bg-green-400 sticky top-0 z-50">
+    <div className="navbar bg-primary sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -37,6 +41,10 @@ const Navbar = () => {
       {
         openModal && <OrderOnline></OrderOnline>
       }
+      {
+        openModal && <ReactHookForm></ReactHookForm>
+      }
+
     </div>
   );
 };
