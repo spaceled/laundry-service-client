@@ -1,10 +1,11 @@
 import React from 'react';
+import H1 from './H1';
 
 const CommercialService = () => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center pt-10 mt-10">COMMERCIAL LAUNDRY SERVICE</h1>
+      <H1>COMMERCIAL LAUNDRY SERVICE</H1>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 m-10 p-10">
         <div className="flex-1">
           <figure><img src="https://smartdata.tonytemplates.com/laundry-v2/wp-content/uploads/2018/02/img-commercial-service-1.jpg" alt="Shoes" /></figure>

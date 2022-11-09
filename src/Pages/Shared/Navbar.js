@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import OrderOnline from '../OrderOnline/OrderOnline';
 import ReactHookForm from './ReactHookForm';
+// import './Navbar.css';
 
 const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);
-
+  
   const menuItems = <>
-    <li><Link to="/">Home</Link></li>
+    <li className=""><Link to="/">Home</Link></li>
     <li><Link to="/about">About</Link></li>
     <li><Link to="/services">Services</Link></li>
     <li><Link to="/prices">Prices</Link></li>
@@ -17,12 +18,9 @@ const Navbar = () => {
       <label onClick={() => setOpenModal(true)} htmlFor="order-modal">Order Online</label>
     </li>
     <li><Link to="/contacts">contacts</Link></li>
-    <li>
-      <label onClick={() => setOpenModal(true)} htmlFor="my-modal-5">React-Hook-Form</label>
-    </li>
   </>
   return (
-    <div className="navbar bg-primary sticky top-0 z-50">
+    <div className="navbar bg-info sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,8 +30,8 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <div className="navbar-center font-bold hidden lg:flex">
-          <ul className="menu menu-horizontal gap-x-4 text-white uppercase p-0">
+        <div className="navbar-center font-bold hidden lg:flex p-0">
+          <ul className="menu menu-vertical gap-x-4 text-white uppercase lg:menu-horizontal">
             {menuItems}
           </ul>
         </div>
@@ -41,10 +39,6 @@ const Navbar = () => {
       {
         openModal && <OrderOnline></OrderOnline>
       }
-      {
-        openModal && <ReactHookForm></ReactHookForm>
-      }
-
     </div>
   );
 };

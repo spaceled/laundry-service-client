@@ -1,10 +1,11 @@
 import React from 'react';
 import Testing from '../About/Testing';
+import H1 from '../Shared/H1';
 
 const Blog = () => {
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center my-10">This is Blog</h1>
+      <H1>This is Blog</H1>
     </div>
   );
 };

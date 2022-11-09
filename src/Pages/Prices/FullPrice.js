@@ -3,12 +3,12 @@ import washingMachine from '../../assets/icons/washingMachine.png';
 import iron from '../../assets/icons/iron.png';
 import dryWash from '../../assets/icons/dryWash.png';
 import table from '../../assets/icons/table.png';
+import H1 from '../Shared/H1';
 
 const FullPrice = () => {
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center mt-10">FULL PRICE LIST</h1>
-      
+      <H1>FULL PRICE LIST</H1>
       <div className="flex mt-10 p-10 justify-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <img className="img-responsive mx-2" src={washingMachine} alt="" />
         <img className="img-responsive mx-2" src={iron} alt="" />

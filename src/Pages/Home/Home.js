@@ -9,12 +9,14 @@ import AppordablePrices from '../Shared/AppordablePrices';
 import ServiceQuality from '../Shared/ServiceQuality';
 import Footer from '../Shared/Footer';
 import CommercialService2 from '../Shared/CommercialService2';
+import CardCarousel from '../Shared/CardCarousel/CardCarousel';
 
 const Home = () => {
   return (
     <div>
       <Carousel></Carousel>
-      <ServiceCarousel></ServiceCarousel>
+      {/* <ServiceCarousel></ServiceCarousel> */}
+      <CardCarousel></CardCarousel>
       <Passionate></Passionate>
       <EasySteps></EasySteps>
       <CommercialService></CommercialService>

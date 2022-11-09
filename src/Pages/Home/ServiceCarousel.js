@@ -10,7 +10,7 @@ const ServiceCarousel = () => {
       <div className="carousel-item">
         <div className="card w-96 shadow-xl rounded-none mx-6 bg-green-400">
           <div className="card-body items-center">
-            <svg className="svg-washer-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 32 32">
+            <svg className="svg-washer-icon" stroke="white" fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 32 32">
 									<path d="M29 29c0 1.519-1.231 2.75-2.75 2.75h-20.5c-1.519 0-2.75-1.231-2.75-2.75v-26c0-1.519 1.231-2.75 2.75-2.75h20.5c1.519 0 2.75 1.231 2.75 2.75v26zM27.5 3c0-0.69-0.56-1.25-1.25-1.25h-20.5c-0.69 0-1.25 0.56-1.25 1.25v26c0 0.69 0.56 1.25 1.25 1.25h20.5c0.69 0 1.25-0.56 1.25-1.25v-26z"></path>
 									<path d="M28.036 9.75h-24.5c-0.414 0-0.537-0.336-0.537-0.75v-5.76c0-1.537 1.226-2.99 2.749-2.99h20.31c1.607 0 2.94 1.576 2.94 2.99v5.76c0 0.414-0.55 0.75-0.964 0.75zM4.5 8.25h23v-5.009c0-0.675-0.761-1.491-1.44-1.491h-20.31c-0.684 0-1.249 0.794-1.249 1.491v5.009z"></path>
 									<path d="M11.75 9.5c-0.414 0-0.75-0.336-0.75-0.75v-7.5c0-0.414 0.336-0.75 0.75-0.75s0.75 0.336 0.75 0.75v7.5c0 0.414-0.336 0.75-0.75 0.75z"></path>
@@ -35,9 +35,9 @@ const ServiceCarousel = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <div className="card w-96 shadow-xl rounded-none mx-6 bg-lime-300">
+        <div className="card w-96 shadow-xl rounded-none mx-6 bg-info">
           <div className="card-body items-center">
-          <svg className="svg-hanger-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 35 32">
+          <svg className="svg-hanger-icon"  stroke="white" fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 35 32">
 									<path className="hanger" d="M32.702 20.62l-13.413-12.155c-0.15-0.137-0.316-0.252-0.489-0.352v-1.965h-0.128c-0.088-0.27-0.301-0.497-0.673-0.583-0.831-0.191-1.748-0.465-2.315-1.143-0.274-0.328-0.359-0.76-0.242-0.988 0.664-1.294 2.593-0.9 3.702-0.421 1.181 0.51 2.21-1.211 1.019-1.725-2.057-0.889-5.404-1.289-6.511 1.245-0.855 1.956 0.436 3.464 2.078 4.32v1.245c-0.184 0.104-0.36 0.223-0.52 0.367l-13.411 12.155c-1.127 1.021-0.748 1.849 0.845 1.849h6.377v-2.155h-3.674l11.312-10.251c0.145-0.132 0.361-0.208 0.592-0.208s0.447 0.075 0.592 0.208l11.312 10.251h-3.747v2.155h6.45c1.593 0 1.971-0.828 0.845-1.849z"></path>
 									<path className="clothes" d="M10.097 20.314v11.686l3.376-1.023-0.031-6.447c-0.003-0.594 0.477-1.081 1.072-1.083 0.002 0 0.004 0 0.005 0 0.593 0 1.075 0.479 1.077 1.072l0.028 5.806 8.704-2.636v-9.561h-14.232v2.186z"></path>
 								</svg>
@@ -51,7 +51,7 @@ const ServiceCarousel = () => {
       <div className="carousel-item">
         <div className="card w-96 shadow-xl rounded-none mx-6 bg-green-400">
           <div className="card-body items-center">
-          <svg className="svg-vacuumcleaner-icon animated-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 39 32">
+          <svg className="svg-vacuumcleaner-icon animated-icon"  stroke="white" fill="white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 39 32">
 									<path className="tube" d="M37.644 31.192h-9.893c-0.259-1.001 0.157-1.911 0.717-2.333 0.567-0.428 1.67-0.211 2.641-0.338-0.084-0.428-0.199-0.965-0.386-1.344-4.045-8.229-8.121-16.452-12.166-24.681-0.223-0.458-0.705-0.729-1.212-0.699-0.567 0.030-1.145 0.006-1.766 0.006v-1.718c1.121 0 2.267-0.084 3.388 0.048 0.35 0.042 0.717 0.621 0.922 1.037 2.888 5.787 5.745 11.593 8.615 17.393 1.248 2.526 2.514 5.046 3.732 7.59 0.338 0.705 0.663 1.459 0.983 2.399 0.416 0 0.826 0.012 1.459 0.018 1.019 0.012 1.447 0.241 2.020 0.965 0.47 0.591 0.627 0.904 1.031 1.537-0.042 0.048-0.054 0.060-0.084 0.121z"></path>
 									<path className="hose" d="M14.12 0.898c0 0.41 0 0.711 0 0.892-0.953 0.362-1.887 0.591-2.701 1.043-1.616 0.892-2.182 2.417-1.682 4.184 0.518 1.833 1.718 3.231 2.99 4.576 3.286 3.473 6.601 6.921 9.863 10.412 0.603 0.645 1.097 1.411 1.513 2.194 1.278 2.436 0.32 4.105-2.496 4.317 0-0.326 0-0.651 0-0.983 0.036-0.024 0.078-0.072 0.127-0.078 1.857-0.247 2.363-1.079 1.411-2.695-0.723-1.224-1.634-2.369-2.604-3.418-3.153-3.4-6.402-6.71-9.543-10.116-0.784-0.85-1.429-1.893-1.917-2.948-1.495-3.255-0.006-6.246 3.466-7.138 0.494-0.115 1.007-0.151 1.573-0.241z"></path>
 									<path className="vacuumcleaner" d="M7.049 20.883c-3.069 0-5.558 2.49-5.558 5.558s2.49 5.558 5.558 5.558c3.069 0 5.558-2.49 5.558-5.558s-2.49-5.558-5.558-5.558zM7.049 29.468c-1.67 0-3.026-1.356-3.026-3.026s1.356-3.026 3.026-3.026c1.67 0 3.026 1.356 3.026 3.026s-1.356 3.026-3.026 3.026z"></path>
