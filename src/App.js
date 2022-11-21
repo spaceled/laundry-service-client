@@ -18,6 +18,7 @@ import OrderOnline from './Pages/OrderOnline/OrderOnline';
 import Contacts from './Pages/Contacts/Contacts';
 import Form from './Pages/Shared/ReactHookForm';
 import ReactHookForm from './Pages/Shared/ReactHookForm';
+import Faq from './Pages/Faq/Faq';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="services" element={<Services/>}/>
         <Route path="prices" element={<Prices/>}/>
         <Route path="blog" element={<Blog/>}/>
+        <Route path="faq" element={<Faq/>}/>
         <Route element={<OrderOnline/>}/>
         <Route path="contacts" element={<Contacts/>}/>
         <Route path="form" element={<ReactHookForm/>}/>

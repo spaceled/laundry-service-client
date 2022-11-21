@@ -6,6 +6,7 @@ import iron from '../../../assets/icons/iron.svg';
 import hanger from '../../../assets/icons/hanger.svg';
 import Carousel from "react-elastic-carousel";
 import CarouselInfo from './CarouselInfo';
+import CardCarouselTesting from './CardCarouselTesting';
 
 
 const breakPoints = [
@@ -16,7 +17,7 @@ const breakPoints = [
 ];
 
 
-const CardCarousel = () => {
+const CardCarousel = ({children}) => {
   const cardInfo = [
     {
       _id: 1,
@@ -54,6 +55,33 @@ const CardCarousel = () => {
       name: 'shoe cleaning',
       description: 'Let us pick up your dirty laundry, sort it, stains, wash, dry, fold and deliver back to you in one neat, easy package.',
       img: washing
+    },
+  ]
+
+  const testCase = [
+    { 
+      _cid: 1,
+      cname: 'Carpet',
+      image: 'green',
+      h1: 'Great'
+    },
+    { 
+      _cid: 2,
+      cname: 'Marpet',
+      cimage: 'Black',
+      ch1: 'Mreat'
+    },
+    { 
+      _cid: 3,
+      cname: 'Larpet',
+      cimage: 'Lreen',
+      ch1: 'Lreat'
+    },
+    { 
+      _cid: 4,
+      cname: 'Jarpet',
+      cimage: 'Jreen',
+      ch1: 'Jreat'
     },
   ]
 

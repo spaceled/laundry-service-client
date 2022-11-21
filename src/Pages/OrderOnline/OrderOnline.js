@@ -51,8 +51,8 @@ const OrderOnline = () => {
                     <input type="email" className="block  w-5/12 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 form-input" placeholder="Email Address"
                     />
                   </label>
-                  <label class="flex mt-2">
-                    <span class="text-gray-700 w-2/12"></span>
+                  <label className="flex mt-2">
+                    <span className="text-gray-700 w-2/12"></span>
                     <select className="block mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-5/12">
                       <option >The Laundry will be with doorman</option>
                       <option>The Laundry will not be with doorman</option>
@@ -133,12 +133,12 @@ const OrderOnline = () => {
                       </div>
                     </div>
                   </fieldset>
-                  <div class="block">
-                    <div class="mt-7 text-center">
+                  <div className="block">
+                    <div className="mt-7 text-center">
                       <div>
-                        <label class="inline-flex items-center">
+                        <label className="inline-flex items-center">
                           <input type="checkbox" className=" rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50 " />
-                          <span class="ml-4">Email me news and special offers</span>
+                          <span className="ml-4">Email me news and special offers</span>
                         </label>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ const OrderOnline = () => {
                     </label>
                   </div>
                 </div>
-                <div class="text-center mt-7">
+                <div className="text-center mt-7">
                 <PrimaryButton>Submit Order</PrimaryButton>
                 </div>
               </form>

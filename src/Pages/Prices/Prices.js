@@ -6,6 +6,8 @@ import FullPrice from './FullPrice';
 import Footer from '../Shared/Footer';
 import H1 from '../Shared/H1';
 
+// https://www.youtube.com/watch?v=Ib-80HIjuZ4
+
 const Prices = () => {
   return (
     <div className="text-center">
