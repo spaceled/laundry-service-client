@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
-import Blog from "../../Blog/Blog";
-import CardCarousel from "./CardCarousel";
-import Item from "./Item";
 import "./styles.css";
 
 const breakPoints = [
@@ -13,11 +10,13 @@ const breakPoints = [
   { width: 1200, itemsToShow: 3 },
 ];
 
-const CardCarouselTesting = ({ children }) => {
+const SliderParent = ({ children }) => {
 
   return (
-    <Carousel breakPoints={breakPoints} className="-mt-10">{children}</Carousel>
+    <div >
+      <Carousel breakPoints={breakPoints}>{children}</Carousel>
+    </div>
   );
 };
 
-export default CardCarouselTesting;
+export default SliderParent;

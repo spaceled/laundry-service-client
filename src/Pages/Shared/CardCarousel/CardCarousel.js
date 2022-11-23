@@ -6,7 +6,6 @@ import iron from '../../../assets/icons/iron.svg';
 import hanger from '../../../assets/icons/hanger.svg';
 import Carousel from "react-elastic-carousel";
 import CarouselInfo from './CarouselInfo';
-import CardCarouselTesting from './CardCarouselTesting';
 
 
 const breakPoints = [

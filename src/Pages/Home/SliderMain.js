@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Carousel = () => {
+const SliderMain = () => {
+  
   return (
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative rounded-box w-full">
@@ -35,4 +36,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default SliderMain;

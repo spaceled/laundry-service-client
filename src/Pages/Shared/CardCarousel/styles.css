@@ -5,3 +5,15 @@
   justify-content: center;
   height: 100vh;
 }
+button.rec-dot{
+  background-color: rgb(16, 147, 235);
+  box-shadow: 0 0 1px 3px rgba(16, 235, 115, 0.5);
+  background: #00c3f5
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  outline: none;
+  box-shadow: 0 0 1px 3px rgba(25, 105, 209, 0.5);
+  background: #00a0d7;
+}
+/* https://sag1v.github.io/react-elastic-carousel/styling */

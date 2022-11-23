@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel';
+import SliderMain from './SliderMain';
 import CommercialService from '../Shared/CommercialService';
 import EasySteps from './EasySteps';
 import Passionate from './Passionate';
@@ -14,7 +14,7 @@ import CardCarousel from '../Shared/CardCarousel/CardCarousel';
 const Home = () => {
   return (
     <div>
-      <Carousel></Carousel>
+      <SliderMain></SliderMain>
       {/* <ServiceCarousel></ServiceCarousel> */}
       <CardCarousel></CardCarousel>
       <Passionate></Passionate>
